@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Navbar from "../../components/Navbar";
+import Image from "next/image";
 
 export default function NorwegianWebPortfolio() {
   return (
@@ -61,41 +62,29 @@ export default function NorwegianWebPortfolio() {
             Få et forslag
           </Link>
         </div>
+        <motion.section
+          className="max-w-5xl mx-auto text-center mt-24"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+        >
+          <h2 className="text-2xl font-bold text-white mb-4">
+            Virksomheter som har vist meg tillit
+          </h2>
+          <p className="mb-4">
+            Bedrifter jeg har samarbeidet med på webprosjekter
+          </p>
 
-        {/* 
-        <div className="grid gap-8 md:grid-cols-2">
-          <motion.div
-            className="bg-zinc-900 p-6 rounded-xl border border-zinc-700"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-          >
-            <h2 className="text-xl font-semibold mb-2 text-blue-400">
-              Project One
-            </h2>
-            <p className="text-zinc-300">
-              A responsive website built with Next.js, React, and Tailwind CSS.
-            </p>
-          </motion.div>
-
-          <motion.div
-            className="bg-zinc-900 p-6 rounded-xl border border-zinc-700"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            viewport={{ once: true }}
-          >
-            <h2 className="text-xl font-semibold mb-2 text-blue-400">
-              Project Two
-            </h2>
-            <p className="text-zinc-300">
-              A custom CMS dashboard with user login and dynamic content
-              editing.
-            </p>
-          </motion.div>
-        </div>
-        */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-10 items-center">
+            <Link href="https://gyorietokc.hu" target="_blank">
+              <Image
+                src="/gyori_audi_eto_kc.png"
+                alt="Győri ETO KC"
+                className="mx-auto h-12 opacity-70 hover:opacity-100 transition"
+              />
+            </Link>
+          </div>
+        </motion.section>
       </div>
     </main>
   );
