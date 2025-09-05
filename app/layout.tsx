@@ -1,6 +1,7 @@
 "use client";
 import "./globals.css";
 import Image from "next/image";
+import Script from "next/script";
 
 export default function RootLayout({
   children,
@@ -10,10 +11,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script
+        <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-S31PP2W6CG"
-        ></script>
+        ></Script>
         <script
           id="ga-init"
           dangerouslySetInnerHTML={{
