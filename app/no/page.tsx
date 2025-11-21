@@ -132,9 +132,9 @@ export default function Home() {
           </motion.p>
           <div className="flex justify-center mt-10">
             <Image
-              src="/me.JPEG"
+              src="/Profile.png"
               alt="Hi, I am Adam"
-              className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover shadow-lg"
+              className="w-24 h-24 md:w-32 md:h-32 shadow-lg"
               width={128}
               height={128}
             />
