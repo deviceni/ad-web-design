@@ -84,6 +84,14 @@ export default function HungarianWebPortfolio() {
                 className="mx-auto h-12 opacity-70 hover:opacity-100 transition"
               />
             </Link>
+
+            <Link href="https://nadisphotography.com" target="_blank">
+              <Image
+                src="/NadisPhotography-logo-sand.png"
+                alt="NadisPhotography"
+                className="mx-auto h-12 opacity-70 hover:opacity-100 transition"
+              />
+            </Link>
           </div>
         </motion.section>
       </div>
