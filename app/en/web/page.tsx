@@ -91,6 +91,14 @@ export default function WebPortfolio() {
                 className="mx-auto h-12 opacity-70 hover:opacity-100 transition"
               />
             </Link>
+
+            <Link href="https://viyoupilates.com" target="_blank">
+              <Image
+                src="/viyou_pilates_milanoPNGpink.png"
+                alt="Viyou Pilates"
+                className="mx-auto h-12 opacity-70 hover:opacity-100 transition"
+              />
+            </Link>
           </div>
         </motion.section>
       </div>
