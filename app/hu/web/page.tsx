@@ -100,6 +100,14 @@ export default function HungarianWebPortfolio() {
                 className="mx-auto h-12 opacity-70 hover:opacity-100 transition"
               />
             </Link>
+
+            <Link href="https://www.thesafetycorner.com/" target="_blank">
+              <Image
+                src="/thesafetycorner_logo.png"
+                alt="The Safety Corner"
+                className="mx-auto h-12 opacity-70 hover:opacity-100 transition"
+              />
+            </Link>
           </div>
         </motion.section>
       </div>
