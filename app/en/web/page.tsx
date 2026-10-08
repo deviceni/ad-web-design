@@ -102,7 +102,7 @@ export default function WebPortfolio() {
 
             <Link href="https://www.thesafetycorner.com/" target="_blank">
               <Image
-                src="/the_safety_corner.png"
+                src="/thesafetycorner_logo.png"
                 alt="The Safety Corner"
                 className="mx-auto h-12 opacity-70 hover:opacity-100 transition"
               />
