@@ -31,7 +31,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased">
         <Image
-          src="/ad-web-logo.png"
+          src="/adweb_logo_new.png"
           alt="AD WEB Design logo"
           width={60}
           height={60}
